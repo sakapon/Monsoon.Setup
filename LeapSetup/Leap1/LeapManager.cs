@@ -15,17 +15,17 @@ namespace Monsoon.Setup.Leap
         ReactiveProperty<bool> _IsConnected = new ReactiveProperty<bool>(false);
         public IReadOnlyReactiveProperty<bool> IsConnected => _IsConnected;
 
-        Controller _controller;
+        public Controller Controller { get; }
         FrameListener _listener;
         bool _isDisposed;
 
         public LeapManager()
         {
-            _controller = new Controller();
+            Controller = new Controller();
             _listener = new FrameListener(this);
-            _controller.AddListener(_listener);
+            Controller.AddListener(_listener);
 
-            _controller.SetPolicyFlags(Controller.PolicyFlag.POLICY_BACKGROUND_FRAMES);
+            Controller.SetPolicyFlags(Controller.PolicyFlag.POLICY_BACKGROUND_FRAMES);
         }
 
         ~LeapManager()
@@ -49,9 +49,9 @@ namespace Monsoon.Setup.Leap
             // RemoveListener メソッドを呼び出すと例外が発生します。
             if (disposing)
             {
-                _controller.RemoveListener(_listener);
+                Controller.RemoveListener(_listener);
                 _listener.Dispose();
-                _controller.Dispose();
+                Controller.Dispose();
             }
         }
 
