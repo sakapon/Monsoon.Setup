@@ -13,6 +13,9 @@
     <releaseNotes>$releaseNotes$</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>$tags$</tags>
+    <dependencies>
+      <dependency id="ReactiveProperty" version="2.7.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\$id$.dll" target="lib\net45" />
