@@ -23,5 +23,6 @@
     <file src="bin\Release\LeapCSharp.NET4.0.dll" target="lib\net45" />
     <file src="bin\Release\Leap.dll" target="content" />
     <file src="bin\Release\LeapCSharp.dll" target="content" />
+    <file src="pkg\tools\*.*" target="tools" />
   </files>
 </package>
