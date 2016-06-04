@@ -16,7 +16,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyMetadata("ProjectUrl", "https://github.com/sakapon/Monsoon.Setup")]
 [assembly: AssemblyMetadata("LicenseUrl", "https://github.com/sakapon/Monsoon.Setup/blob/master/LICENSE")]
 [assembly: AssemblyMetadata("Tags", "Leap Motion")]
-[assembly: AssemblyMetadata("ReleaseNotes", "The first release.")]
+[assembly: AssemblyMetadata("ReleaseNotes", "Add native DLLs to project as link.")]
 
 // ComVisible を false に設定すると、その型はこのアセンブリ内で COM コンポーネントから 
 // 参照不可能になります。COM からこのアセンブリ内の型にアクセスする場合は、
@@ -36,5 +36,5 @@ using System.Runtime.InteropServices;
 // すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.3.0")]
+[assembly: AssemblyFileVersion("1.0.3.0")]
