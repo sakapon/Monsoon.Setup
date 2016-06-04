@@ -1,9 +1,9 @@
 ﻿param($installPath, $toolsPath, $package, $project)
 
-$LeapItem = $project.ProjectItems.Item("Leap.dll")
-$LeapOutputProp = $LeapItem.Properties.Item("CopyToOutputDirectory")
-$LeapOutputProp.Value = 2
+$Leap_Item = $project.ProjectItems.Item("Leap.dll")
+$Leap_OutputProp = $Leap_Item.Properties.Item("CopyToOutputDirectory")
+$Leap_OutputProp.Value = 2
 
-$LeapCSharpItem = $project.ProjectItems.Item("LeapCSharp.dll")
-$LeapCSharpOutputProp = $LeapCSharpItem.Properties.Item("CopyToOutputDirectory")
-$LeapCSharpOutputProp.Value = 2
+$LeapCSharp_Item = $project.ProjectItems.Item("LeapCSharp.dll")
+$LeapCSharp_OutputProp = $LeapCSharp_Item.Properties.Item("CopyToOutputDirectory")
+$LeapCSharp_OutputProp.Value = 2
