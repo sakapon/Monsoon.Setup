@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("Monsoon.Setup.Leap2")]
-[assembly: AssemblyDescription("The library of basic setup for Leap Motion SDK 2.3.1.")]
+[assembly: AssemblyDescription("The basic setup for Leap Motion SDK 2.3.1.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Keiho Sakapon")]
 [assembly: AssemblyProduct("Monsoon")]
@@ -36,5 +36,5 @@ using System.Runtime.InteropServices;
 // すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.4.0")]
-[assembly: AssemblyFileVersion("1.1.4.0")]
+[assembly: AssemblyVersion("1.1.5.0")]
+[assembly: AssemblyFileVersion("1.1.5.0")]
