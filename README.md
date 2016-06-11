@@ -4,7 +4,7 @@ The NuGet packages for the initial setup (DLL references, etc.).
 
 ### For Leap Motion SDK
 Adds references for Leap Motion SDK to the project.  
-In addition, install [Monsoon.Reactive](https://github.com/sakapon/Monsoon.Reactive) for reactive programming.
+In addition, Use [Monsoon.Reactive](https://github.com/sakapon/Monsoon.Reactive) for reactive programming.
 
 #### Monsoon.Setup.Leap1
 To install Monsoon.Setup.Leap1, run the following command in the Package Manager Console on Visual Studio:
