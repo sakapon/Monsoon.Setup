@@ -13,13 +13,8 @@
     <releaseNotes>$releaseNotes$</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>$tags$</tags>
-    <dependencies>
-      <dependency id="ReactiveProperty" version="2.7.1" />
-    </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\$id$.dll" target="lib\net45" />
-    <file src="bin\Release\$id$.xml" target="lib\net45" />
     <file src="bin\Release\LeapCSharp.NET4.0.dll" target="lib\net45" />
     <file src="bin\Release\Leap.dll" target="content" />
     <file src="bin\Release\LeapCSharp.dll" target="content" />

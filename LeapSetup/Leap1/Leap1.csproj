@@ -86,11 +86,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\Lib\Leap 1.2.0\Leap.dll">
+    <Content Include="..\..\Lib\Leap 1.2.0\x86\Leap.dll">
       <Link>Leap.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\Lib\Leap 1.2.0\LeapCSharp.dll">
+    <Content Include="..\..\Lib\Leap 1.2.0\x86\LeapCSharp.dll">
       <Link>LeapCSharp.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
