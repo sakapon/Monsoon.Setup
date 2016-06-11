@@ -1,9 +1,9 @@
 ## Monsoon.Setup
 
-The NuGet packages for the initial setup (DLL references, base classes, etc.).
+The NuGet packages for the initial setup (DLL references, etc.).
 
 ### For Leap Motion SDK
-Setups to use Leap Motion SDK and ReactiveProperty.
+Setups to use Leap Motion SDK.
 
 #### Monsoon.Setup.Leap1
 To install Monsoon.Setup.Leap1, run the following command in the Package Manager Console on Visual Studio:
