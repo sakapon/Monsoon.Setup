@@ -25,7 +25,7 @@ To install [Monsoon.Setup.Leap2](https://www.nuget.org/packages/Monsoon.Setup.Le
 Install-Package Monsoon.Setup.Leap2
 ```
 
-#### Screen shots
+#### Screen Shots
 A project on Visual Studio and the built bin\Debug folder:  
 ![References](Images/Leap/Leap-References.png)
 ![Bin](Images/Leap/Leap-Bin.png)
